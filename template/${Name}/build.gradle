@@ -1,5 +1,5 @@
-group = 'com.asteroid.duck'
-version = '0.0.1'
+group = '${Org}'
+version = '${Version}'
 description = '${Description}'
 ${if Java}
 apply plugin: 'java'

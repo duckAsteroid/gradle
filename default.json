@@ -1,8 +1,9 @@
 {
   "GradleVersion": "5.0",
-  "JavaProject": true,
+  "Java": true,
+
   "Org": "com.asteroid.duck",
   "Name": "example-project",
-  "Description": "An example project",
-  "Version": "0.0.1"
+  "Version": "0.0.1",
+  "Description": "An example project"
 }
