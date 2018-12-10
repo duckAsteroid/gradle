@@ -1,2 +1,6 @@
 group = 'com.asteroid.duck'
 version = '0.0.1'
+description = '${Description}'
+${if Java}
+apply plugin: 'java'
+${end}
