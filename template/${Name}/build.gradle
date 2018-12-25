@@ -3,4 +3,8 @@ version = '${Version}'
 description = '${Description}'
 ${if Java}
 apply plugin: 'java'
+
+dependencies {
+
+}
 ${end}
