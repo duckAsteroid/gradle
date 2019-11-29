@@ -1,5 +1,5 @@
 {
-  "GradleVersion": "6.0.1",
+  "GradleVersion": "!https://services.gradle.org/versions/current#version",
   "Java": true,
   "Org": "com.asteroid.duck",
   "Name": "example-project",
