@@ -1,10 +1,18 @@
+plugins {
+  ${if Java}
+  id 'java'
+  ${end}
+  ${if Application}
+  id 'application
+  ${end}
+}
 group = '${Org}'
 version = '${Version}'
 description = '${Description}'
 ${if Java}
-apply plugin: 'java'
-
+repositories {
+  mavenCentral()
+}
 dependencies {
-
 }
 ${end}
