@@ -6,6 +6,13 @@ plugins {
   id 'application
   ${end}
 }
+${if Java}
+java {
+  toolchain {
+    languageVersion = JavaLanguageVersion.of(${JvmVersion)
+  }
+}
+${end}
 group = '${Org}'
 version = '${Version}'
 description = '${Description}'
