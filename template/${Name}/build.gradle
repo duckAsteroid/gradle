@@ -3,13 +3,13 @@ plugins {
   id 'java'
   ${end}
   ${if Application}
-  id 'application
+  id 'application'
   ${end}
 }
 ${if Java}
 java {
   toolchain {
-    languageVersion = JavaLanguageVersion.of(${JvmVersion)
+    languageVersion = JavaLanguageVersion.of(${JvmVersion})
   }
 }
 ${end}
